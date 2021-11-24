@@ -14,6 +14,6 @@ data "google_compute_subnetwork" "subnet-1" {
 }
 
 data "google_compute_zones" "available" {
-  region = var.gcp_zone  #"europe-west3" 
+  region = var.gcp_region  #"us-central1" 
   status = "UP"
 }
