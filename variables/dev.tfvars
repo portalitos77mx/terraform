@@ -19,7 +19,7 @@ gcp_zone = "us-central1-a"
 
 
 # vm - BASTION ---------------------------
-cidr_blocks = "0.0.0.0/0"
+# cidr_blocks = "0.0.0.0/0"
 # machine_type = "e2-micro" 
 #metadata_startup_script = "sudo apt-get update && sudo apt-get install apache2 -y && echo '<!doctype html><html><body><h1>Hello from Terraform on Google Cloud!</h1></body></html>' | sudo tee /var/www/html/index.html"
 metadata_startup_script = "scripts/bootstrap.sh"
