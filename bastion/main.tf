@@ -4,7 +4,7 @@ resource "google_compute_address" "static" {
 
 resource "google_compute_instance" "bastion_instance" {
   name         = "bastion-${var.client}-${var.environment}"
-  machine_type = ${var.client}
+  machine_type = "${var.machine_type}"
   zone         =  "us-central1-a"  
   tags = [
     "${var.environment}-bastion-http",
