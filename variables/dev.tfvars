@@ -15,7 +15,7 @@ gcp_project_id = "mx-herdez-git"
 client = "con-jenkins"
 # gcp_vpc_cidr = "10.150.0.0/20"
 gcp_zone = "us-central1-a"
-zones = ["us-central1-a","us-central1-b","us-central1-c"]
+# zones = ["us-central1-a","us-central1-b","us-central1-c"]
 
 
 # vm - BASTION ---------------------------
