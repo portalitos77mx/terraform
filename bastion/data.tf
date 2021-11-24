@@ -10,7 +10,7 @@ data "google_compute_network" "vpc" {
 
 data "google_compute_subnetwork" "subnet-1" {
   name   = var.gcp_subnet_1  
-  region = var.gcp_zone
+  region = var.gcp_region
 }
 
 data "google_compute_zones" "available" {
