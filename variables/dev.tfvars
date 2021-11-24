@@ -8,8 +8,8 @@
 
 
 environment = "dev"
-gcp_vpc_name = "vpc-ideasextraordinarias-des"
-gcp_subnet_1 = "subnet-2d651a41ced44247-ideasextraordinarias-des"
+gcp_vpc_name = "red-git"
+gcp_subnet_1 = "subred-git"
 gcp_region = "us-central1"
 gcp_project_id = "mx-herdez-git"
 client = "ideasextraordinarias"
